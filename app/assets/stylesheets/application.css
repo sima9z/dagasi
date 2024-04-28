@@ -13,3 +13,15 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+  background-color: #DAD0C2;
+  color:white;
+  background-image: url('/assets/122324178.jpg');
+  font-family: 'Syouwanonioi', sans-serif;
+ }
+
+ @font-face {
+  font-family: 'Syouwanonioi';
+  src: url('/assets/Syouwanonioi.ttf') format('truetype');
+ }

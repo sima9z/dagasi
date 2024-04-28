@@ -1,6 +1,6 @@
-<h1>オススメの駄菓子一覧</h1>
-<p>検索窓</p>
+<h1>おすすめのだがし</h1>
+<p>けんさく</p>
 <% @dagashis.each do |dagashi| %>
-  <%= dagashi.name %>
+  <%= link_to(dagashi.name, dagashi_path(dagashi.id)) %>
   <%= dagashi.description %>
 <% end %>
