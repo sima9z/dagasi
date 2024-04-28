@@ -1,0 +1,2 @@
+class Dagashi < ApplicationRecord
+end
