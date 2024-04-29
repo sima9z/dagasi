@@ -1,9 +1,19 @@
-<div class = "container">
+<div class = "top-container">
 
-  <div class = "title">
-    <h1>だがしのへまちようこそ</h1>
+<div class="hisashi">
+  <%= image_tag '/assets/日さし.png', class: 'img-fluid' %>
+</div>
+
+  <div class="noren">
+    <%= image_tag '/assets/暖簾.png', class: 'img-fluid', size: "800x250" %>
   </div>
   
-  <%= link_to 'はいる', dagashis_path, class:"enter" %>
+  <div class="top-title">
+    <h1>だがしのまちへようこそ</h1>
+  </div>
+  
+  <%= link_to dagashis_path, class:"enter" do %>
+    <%= image_tag '/assets/入店看板.png', size: "230x150" %>
+  <% end %>
 
 </div>

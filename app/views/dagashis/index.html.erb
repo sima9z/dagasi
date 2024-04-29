@@ -1,6 +1,15 @@
-<h1>おすすめのだがし</h1>
-<p>けんさく</p>
-<% @dagashis.each do |dagashi| %>
-  <%= link_to(dagashi.name, dagashi_path(dagashi.id)) %>
-  <%= dagashi.description %>
-<% end %>
+<header>
+  <div class="title">
+    <h1>おすすめのだがし</h1>
+  </div>
+  <div class="search">
+    <p>けんさく</p>
+  </div>
+</header>
+
+<div class="index-container">
+  <% @dagashis.each do |dagashi| %>
+    <%= link_to(dagashi.name, dagashi_path(dagashi.id)) %>
+    <%= dagashi.description %>
+  <% end %>
+</div>
