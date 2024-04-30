@@ -1,16 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
   <head>
-    <title>Dagasi</title>
+    <title>だがしや</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= favicon_link_tag('favicon.ico') %>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
   </head>
+
+  <header>
+    <div class="hisashi">
+      <%= image_tag '/assets/日さし.png', width: '100%' %>
+    </div>
+  </header>
 
   <body>
     <%= yield %>
   </body>
+
+  <footer>
+    <div class="dot">
+      <%= image_tag '/assets/ドット.png', class: 'img-fluid', width: '100%' %>
+    </div>
+  </footer>
 </html>

@@ -19,24 +19,15 @@
   margin: 0px;
   color:white;  
   background-color: #CDBBA7;
-  font-family: 'Syouwanonioi', sans-serif;
  }
 
  .noren{
   padding-bottom: 100px;
-  margin-top: -30px;
+  margin-top: -10px;
  }
 
  .top-title{
   padding-bottom: 50px;
- }
-
- header{
-  text-align: center;
-  align-items: flex-start; /* 上部に配置 */
-  flex-direction: column;
-  height: 150px; /* ヘッダー全体の高さを画面の高さに設定 */
-  padding: 100px;
  }
 
  .top-container{
@@ -45,9 +36,36 @@
   align-items: center;
   height: 100vh;
   flex-direction: column;
+  width: 100%;
  }
 
- @font-face {
-  font-family: 'Syouwanonioi';
-  src: url('/assets/Syouwanonioi.ttf') format('truetype');
+ .index-header{
+  text-align: center;
+  align-items: flex-start; /* 上部に配置 */
+  flex-direction: column;
+  height: 150px; /* ヘッダー全体の高さを画面の高さに設定 */
+  padding: 50px;
+ }
+
+ .purchases{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+
+ .purchase{
+  padding-bottom:20px;
+ }
+
+ .purchase-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+
+ footer{
+  height: 30px;
+  padding-top: 60px;
  }

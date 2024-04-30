@@ -1,0 +1,16 @@
+<div class="purchase-container">
+  <div>
+    <% @dagashis.each do |dagashi| %>
+      <%= dagashi.name %>
+      <%= dagashi.price.to_s + "円" %>
+    <% end %>
+  </div>
+
+  <h2>毎度ありがとうございます。いっぱい買えたね！</h2>
+
+  <div>
+  <%= link_to dagashis_path do %>
+    <%= image_tag '/assets/戻る.png', size: "110x70" %>
+  <% end %>
+  </div>
+</div>
