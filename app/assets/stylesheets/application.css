@@ -19,6 +19,7 @@
   margin: 0px;
   color:white;  
   background-color: #CDBBA7;
+  font-family: '07にくまるフォント', sans-serif;
  }
 
  .noren{
@@ -43,29 +44,69 @@
   text-align: center;
   align-items: flex-start; /* 上部に配置 */
   flex-direction: column;
-  height: 150px; /* ヘッダー全体の高さを画面の高さに設定 */
+  height: 100px; /* ヘッダー全体の高さを画面の高さに設定 */
   padding: 50px;
+ }
+
+ .menu-parent {
+  max-width: 270px; /* 任意の幅を指定して親要素の幅を制限 */
+  margin: 0 auto; /* 中央揃えにするために左右のマージンを自動で設定 */
+}
+
+ .menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  color:black;
+  padding-bottom: 10px;
+  margin-bottom:50px;
+  border-radius: 10px;
+ }
+
+ .menu li{
+  padding-bottom: 10px;
  }
 
  .purchases{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
  }
 
  .purchase{
-  padding-bottom:20px;
+  padding-right:20px;
  }
 
- .purchase-container{
+ .purchases-container{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
  }
 
+ .purchased-items{
+  background-color: white;
+  color:black;
+  padding: 20px 20px 10px 20px;
+  border-radius: 10px;
+ }
+
+ .purchased-item{
+  padding-bottom: 10px;
+ }
+
+ .purchases-container h2{
+  padding: 30px 0px;
+ }
+
  footer{
   height: 30px;
   padding-top: 60px;
  }
+
+ @font-face {
+  font-family: '07にくまるフォント';
+  src: url('/assets/07にくまるフォント.otf') format('OpenType'),
+}

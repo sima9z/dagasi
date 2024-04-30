@@ -1,24 +1,36 @@
 <div class="index-header">
   <div class="title">
     <h1>いらっしゃいませ</h1>
-    <h2>きょうはなにをかいますか</h2>
+    <h2>今日はどの位買いますか？</h2>
   </div>
 </div>
+
+<div class="menu-parent">
+<div class="menu">
+<h2>お品書き</h2>
+  <% @dagashis.each do |dagashi| %>
+    <li>
+      <%= "#{dagashi.name} #{dagashi.price}円" %>
+    </li>
+  <% end %>
+</div>
+</div>
+
 <div class="purchases">
   <%= link_to purchase_path(100), class:"purchase" do %>
-    <%= image_tag '/assets/100円.png', size: "320x110" %>
+    <%= image_tag '/assets/100円.png', size: "210x70" %>
   <% end %>
   <%= link_to purchase_path(200), class:"purchase" do %>
-    <%= image_tag '/assets/200円.png', size: "320x110" %>
+    <%= image_tag '/assets/200円.png', size: "210x70" %>
   <% end %>
   <%= link_to purchase_path(300), class:"purchase" do %>
-    <%= image_tag '/assets/300円.png', size: "320x110" %>
+    <%= image_tag '/assets/300円.png', size: "210x70" %>
   <% end %>
   <%= link_to purchase_path(400), class:"purchase" do %>
-    <%= image_tag '/assets/400円.png', size: "320x110" %>
+    <%= image_tag '/assets/400円.png', size: "210x70" %>
   <% end %>
   <%= link_to purchase_path(500), class:"purchase" do %>
-    <%= image_tag '/assets/500円.png', size: "320x110" %>
+    <%= image_tag '/assets/500円.png', size: "210x70" %>
   <% end %>
 </div>
 

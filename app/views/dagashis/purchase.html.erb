@@ -1,12 +1,16 @@
-<div class="purchase-container">
-  <div>
+<div class="purchases-container">
+
+  <h2>毎度ありがとうございます。</h2>
+  
+  <div class="purchased-items">
     <% @dagashis.each do |dagashi| %>
-      <%= dagashi.name %>
-      <%= dagashi.price.to_s + "円" %>
+      <li class="purchased-item">
+        <%= "#{dagashi[:name]} #{dagashi[:price]}円 ×#{dagashi[:count]}" %>
+      </li>
     <% end %>
   </div>
 
-  <h2>毎度ありがとうございます。いっぱい買えたね！</h2>
+  <h2>を買いました。</h2>
 
   <div>
   <%= link_to dagashis_path do %>
