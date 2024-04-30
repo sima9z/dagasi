@@ -14,7 +14,7 @@ default: &default
   encoding: utf8mb4
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: root
-  password: 129j1T6Lihv
+  password: <%= ENV["DAGASI_MYSQL_DATABASE_PASSWORD"] %>
   socket: /var/run/mysqld/mysqld.sock
 
 development:
@@ -49,7 +49,9 @@ test:
 # for a full overview on how database connection configuration can be specified.
 #
 production:
-  <<: *default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   database: dagasi_production
   username: dagasi
   password: <%= ENV["DAGASI_DATABASE_PASSWORD"] %>
