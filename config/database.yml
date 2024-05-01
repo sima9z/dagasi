@@ -55,3 +55,4 @@ production:
   database: dagasi_production
   username: dagasi
   password: <%= ENV["DAGASI_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
