@@ -1,5 +1,5 @@
 databases:
-  - name: dagashi
+  - name: dagasi_production
     databaseName: dagasi_production
     user: dagasi
     region: singapore
