@@ -21,7 +21,7 @@ class DagashisController < ApplicationController
   
     # カウントを基に表示用の配列を作成
     @dagashis = dagashi_counts.map do |dagashi, count|
-      { name: dagashi.name, price: dagashi.price, count: count }
+      { name: dagashi.name, price: dagashi.price, count: count, image: dagashi.image }
     end
   end
   
