@@ -1,12 +1,12 @@
 databases:
-  - name: dagasi_production
+  - name: dagashi
     databaseName: dagasi_production
     user: dagasi
     region: singapore
 
 services:
   - type: web
-    name: dagasi_production
+    name: dagashi
     env: ruby
     region: singapore
     buildCommand: "./bin/render-build.sh"
