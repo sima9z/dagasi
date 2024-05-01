@@ -17,7 +17,7 @@ module Dagasi
     config.autoload_lib(ignore: %w(assets tasks))
 
     if Rails.env.production?
-      Dotenv::Railtie.load('.env.production')
+      Dotenv::Rails.load('.env.production')
     end
     # Configuration for the application, engines, and railties goes here.
     #
