@@ -71,24 +71,19 @@ Dagashi.create!(
       image: 'キャベツ太郎.png'
     },
     {
-      name: '蒲焼きさん太郎',
-      price: 10,
-      image: '蒲焼き.png'
-    },
-    {
-      name: '梅ジャム',
-      price: 10,
-      image: '梅ジャム.png'
-    },
-    {
-      name: 'きびだんご',
+      name: 'ポテトフライ',
       price: 30,
-      image: 'きびだんご.png'
+      image: 'ポテトフライ.png'
     },
     {
-      name: 'ベビースター',
-      price: 30,
-      image: 'ベビースター.png'
+      name: 'ヤングドーナツ',
+      price: 20,
+      image: 'ドーナツ.png'
+    },
+    {
+      name: 'ミニラムネ',
+      price: 20,
+      image: 'ミニラムネ(コーラ).png'
     }
   ]
 )
