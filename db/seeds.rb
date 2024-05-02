@@ -18,78 +18,97 @@ Dagashi.create!(
     {
       name: 'アメ',
       price: 10,
+      image: 'アメ(ピンク).png'
     },
     {
       name: 'カルパス',
       price: 10,
+      image: 'カルパス.png'
     },
     {
       name: 'ミックス餅',
       price: 40,
+      image: 'ミックス餅.png'
     },
     {
       name: 'うまい棒',
       price: 10,
+      image: 'うまい棒(紫).png'
     },
     {
       name: 'サイコロキャラメル',
       price: 100,
+      image: 'サイコロキャラメル.png'
     },
     {
       name: 'ココアシガレット',
       price: 30,
+      image: 'シガレット.png'
     },
     {
       name: '占いチョコ',
       price: 30,
+      image: '占いチョコ.png'
     },
     {
       name: 'モロッコヨーグル',
       price: 20,
+      image: 'ヨーグル(青).png'
     },
     {
       name: 'ビッグカツ',
       price: 30,
+      image: 'ビッグカツ.png'
     },
     {
       name: 'よっちゃんイカ',
       price: 30,
+      image: 'よっちゃんイカ.png'
     },
     {
       name: 'キャベツ太郎',
       price: 20,
+      image: 'キャベツ太郎.png'
     },
     {
       name: 'チョコバット',
       price: 30,
+      image: 'チョコバット.png'
     },
     {
       name: '蒲焼きさん太郎',
       price: 10,
+      image: '蒲焼き.png'
     },
     {
       name: '梅ジャム',
       price: 10,
+      image: '梅ジャム.png'
     },
     {
       name: 'きびだんご',
       price: 30,
+      image: 'きびだんご.png'
     },
     {
       name: 'ベビースター',
       price: 30,
+      image: 'ベビースター.png'
     },
     {
       name: 'ポテトフライ',
       price: 30,
+      image: 'ポテトフライ.png'
     },
     {
       name: 'ヤングドーナツ',
       price: 20,
+      image: 'ドーナツ.png'
     },
     {
       name: 'ミニラムネ',
       price: 20,
+      image: 'ミニラムネ(コーラ).png'
     }
   ]
 )
