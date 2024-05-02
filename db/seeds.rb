@@ -84,6 +84,26 @@ Dagashi.create!(
       name: 'ベビースター',
       price: 30,
       image: 'ベビースター.png'
+    },
+    {
+      name: 'ミニラムネ',
+      price: 20,
+      image: 'ミニラムネ(コーラ).png'
+    },
+    {
+      name: 'ヤングドーナツ',
+      price: 20,
+      image: 'ドーナツ.png'
+    },
+    {
+      name: '梅ジャム',
+      price: 10,
+      image: '梅ジャム.png'
+    },
+    {
+      name: '蒲焼きさん太郎',
+      price: 10,
+      image: '蒲焼き.png'
     }
   ]
 )
