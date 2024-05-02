@@ -74,11 +74,6 @@ Dagashi.create!(
       name: 'ポテトフライ',
       price: 30,
       image: 'ポテトフライ.png'
-    },
-    {
-      name: 'ヤングドーナツ',
-      price: 20,
-      image: 'ドーナツ.png'
     }
   ]
 )
