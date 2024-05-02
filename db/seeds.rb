@@ -13,7 +13,7 @@ Dagashi.create!(
     {
       name: 'ガム',
       price: 10,
-      image: File.open(Rails.root.join("app/assets/images/ガム(ブドウ).png"))
+      image: 'ガム(ブドウ).png'
     },
     {
       name: 'アメ',
