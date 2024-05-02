@@ -8,7 +8,7 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 
-Dagashi.find_or_create_by!(
+Dagashi.create!(
   [
     {
       name: 'ガム',
