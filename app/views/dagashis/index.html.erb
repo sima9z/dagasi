@@ -11,7 +11,9 @@
   <% @dagashis.each do |dagashi| %>
     <li>
       <%= "#{dagashi.name} #{dagashi.price}円" %>
-      <%= image_tag dagashi.image, size: "20x20" %>
+      <% if dagashi.image.!= nil %>
+        <%= image_tag dagashi.image, size: "20x20" %>
+      <% end %>
     </li>
   <% end %>
 </div>

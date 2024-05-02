@@ -13,12 +13,10 @@ Dagashi.create!(
     {
       name: 'ガム',
       price: 10,
-      image: 'ガム(ブドウ).png'
     },
     {
       name: 'アメ',
       price: 10,
-      image: 'アメ(ピンク).png'
     }
   ]
 )
