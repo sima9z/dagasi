@@ -17,7 +17,7 @@ Dagashi.create!(
     {
       name: 'アメ',
       price: 10,
-    }
+    },
     {
       name: 'カルパス',
       price: 10,
@@ -25,7 +25,7 @@ Dagashi.create!(
     {
       name: 'ミックス餅',
       price: 40,
-    }
+    },
     {
       name: 'うまい棒',
       price: 10,
@@ -33,7 +33,7 @@ Dagashi.create!(
     {
       name: 'サイコロキャラメル',
       price: 100,
-    }
+    },
     {
       name: 'ココアシガレット',
       price: 30,
@@ -41,7 +41,7 @@ Dagashi.create!(
     {
       name: '占いチョコ',
       price: 30,
-    }
+    },
     {
       name: 'モロッコヨーグル',
       price: 20,
@@ -49,7 +49,7 @@ Dagashi.create!(
     {
       name: 'ビッグカツ',
       price: 30,
-    }
+    },
     {
       name: 'よっちゃんイカ',
       price: 30,
@@ -57,7 +57,7 @@ Dagashi.create!(
     {
       name: 'キャベツ太郎',
       price: 20,
-    }
+    },
     {
       name: 'チョコバット',
       price: 30,
@@ -65,7 +65,7 @@ Dagashi.create!(
     {
       name: '蒲焼きさん太郎',
       price: 10,
-    }
+    },
     {
       name: '梅ジャム',
       price: 10,
@@ -73,7 +73,7 @@ Dagashi.create!(
     {
       name: 'きびだんご',
       price: 30,
-    }
+    },
     {
       name: 'ベビースター',
       price: 30,
@@ -81,7 +81,7 @@ Dagashi.create!(
     {
       name: 'ポテトフライ',
       price: 30,
-    }
+    },
     {
       name: 'ヤングドーナツ',
       price: 20,
