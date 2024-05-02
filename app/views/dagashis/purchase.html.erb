@@ -7,7 +7,7 @@
       <li class="purchased-item">
         <%= "#{dagashi[:name]} #{dagashi[:price]}円 ×#{dagashi[:count]}" %>
         <% dagashi[:count].times do %>
-          <%= image_tag dagashi[:image], size: "20x20" %>
+          <%= image_tag asset_path(dagashi[:image]), size: "20x20" %>
         <% end %>
       </li>
     <% end %>
