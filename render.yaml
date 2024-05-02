@@ -1,12 +1,12 @@
 databases:
-  - name: dagasi_production
-    databaseName: dagasi_production
+  - name: dagashi_production
+    databaseName: dagashi_production
     user: sima9z
     region: singapore
 
 services:
   - type: web
-    name: dagasi_production
+    name: dagashi_production
     env: ruby
     region: singapore
     buildCommand: "./bin/render-build.sh"
@@ -14,7 +14,7 @@ services:
     envVars:
       - key: DATABASE_URL
         fromDatabase:
-          name: dagasi_production
+          name: dagashi_production
           property: connectionString
       - key: RAILS_MASTER_KEY
         sync: false

@@ -52,7 +52,7 @@ production:
   adapter: postgresql
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  database: dagasi_production
+  database: dagashi_production
   username: sima9z
   password: <%= ENV["DB_PASSWORD"] %>
   url: <%= ENV['DATABASE_URL'] %>
