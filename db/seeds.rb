@@ -13,12 +13,12 @@ Dagashi.create!(
     {
       name: 'ガム',
       price: 10,
-      image: File.open('./app/assets/images/ガム(ブドウ).png')
+      image: File.open('ガム(ブドウ).png')
     },
     {
       name: 'アメ',
       price: 10,
-      image: File.open('./app/assets/images/アメ(ピンク).png')
+      image: File.open('アメ(ピンク).png')
     }
   ]
 )
