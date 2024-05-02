@@ -7,3 +7,18 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Dagashi.create!(
+  [
+    {
+      name: 'ガム',
+      price: 10,
+      image: File.open('./app/assets/images/ガム(ブドウ).png')
+    },
+    {
+      name: 'アメ',
+      price: 10,
+      image: File.open('./app/assets/images/アメ(ピンク).png')
+    }
+  ]
+)
