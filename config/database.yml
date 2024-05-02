@@ -53,6 +53,6 @@ production:
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   database: dagasi_production
-  username: dagasi
+  username: sima9z
   password: <%= ENV["DAGASI_DATABASE_PASSWORD"] %>
   url: <%= ENV['DATABASE_URL'] %>
