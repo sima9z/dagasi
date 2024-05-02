@@ -18,7 +18,7 @@ Dagashi.create!(
     {
       name: 'アメ',
       price: 10,
-      image: 'アメ(ピンク).png'
+      image: 'アメ(青).png'
     },
     {
       name: 'カルパス',
