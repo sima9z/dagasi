@@ -10,13 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_04_30_050633) do
+ActiveRecord::Schema[7.1].define(version: 2024_05_22_090443) do
   create_table "dagashis", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "price"
     t.string "image"
+    t.integer "dagashi_item_id", null: false
   end
 
 end

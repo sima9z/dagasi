@@ -1,12 +1,12 @@
 class DagashisController < ApplicationController
   
   def index
-    @dagashis=Dagashi.all
+    @dagashis=DagashiItem.all
   end
 
   def purchase
     budget = params[:budget].to_i
-    dagashis = Dagashi.where('price <= ?', budget)
+    dagashis = DagashiItem.all.select { |item| item.price <= budget }
     dagashi_counts = Hash.new(0) # 駄菓子の選択回数を記録するハッシュ
     remaining_budget = budget
   
