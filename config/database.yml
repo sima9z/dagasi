@@ -55,4 +55,3 @@ production:
   database: dagashi_production
   username: sima9z
   password: <%= ENV["DB_PASSWORD"] %>
-  url: <%= ENV['DATABASE_URL'] %>

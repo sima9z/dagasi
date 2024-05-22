@@ -1,9 +1,3 @@
-databases:
-  - name: dagashi_production
-    databaseName: dagashi_production
-    user: sima9z
-    region: singapore
-
 services:
   - type: web
     name: dagashi_production
@@ -12,9 +6,5 @@ services:
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
     envVars:
-      - key: DATABASE_URL
-        fromDatabase:
-          name: dagashi_production
-          property: connectionString
       - key: RAILS_MASTER_KEY
         sync: false
